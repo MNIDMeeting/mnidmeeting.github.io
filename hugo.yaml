@@ -1,4 +1,4 @@
-baseURL: https://mnidmeeting.github.io/
+baseURL: "https://mnidmeeting.github.io/"
 locale: en-us
 title: MNID Meeting
 theme: ["PaperMod"]
