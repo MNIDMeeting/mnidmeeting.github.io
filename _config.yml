@@ -1,0 +1,57 @@
+title: MNID 2026
+description: Midwest Neglected Infectious Diseases Meeting — Madison, WI · August 7–8, 2026
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: /:path/
+
+conference:
+  name: Midwest Neglected Infectious Diseases Meeting
+  short_name: MNID 2026
+  dates: August 7–8, 2026
+  location: Madison, Wisconsin
+  registration_opens: TBD
+  registration_deadline: TBD
+  abstract_deadline: TBD
+  registration_url: "#"
+
+nav:
+  - title: Schedule
+    url: /schedule/
+  - title: Speakers
+    url: /speakers/
+  - title: Venue
+    url: /venue/
+  - title: About
+    url: /about/
+
+speakers:
+  - name: Speaker Name
+    affiliation: University / Institution
+  - name: Speaker Name
+    affiliation: University / Institution
+  - name: Speaker Name
+    affiliation: University / Institution
+  - name: Speaker Name
+    affiliation: University / Institution
+  - name: Speaker Name
+    affiliation: University / Institution
+  - name: Speaker Name
+    affiliation: University / Institution
+
+sponsors:
+  - name: Sponsor One
+    url: "#"
+  - name: Sponsor Two
+    url: "#"
+  - name: Sponsor Three
+    url: "#"
+  - name: Sponsor Four
+    url: "#"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

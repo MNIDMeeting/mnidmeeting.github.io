@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__logo" aria-label="MNID logo placeholder">MNID</div>
+      <div class="hero__content">
+        <div class="hero__eyebrow">Midwest Neglected Infectious Diseases Meeting</div>
+        <h1 class="hero__headline">A gathering of researchers advancing the science of neglected infectious diseases.</h1>
+        <p class="hero__tagline">Join us in Madison for two days of talks, posters, and conversation across the Midwest's infectious disease research community.</p>
+        <dl class="hero__meta">
+          <dt>Dates</dt>
+          <dd>{{ site.conference.dates }}</dd>
+          <dt>Location</dt>
+          <dd>University of Wisconsin–Madison</dd>
+          <dt>Registration</dt>
+          <dd>Closes {{ site.conference.registration_deadline }}</dd>
+          <dt>Abstracts</dt>
+          <dd>Due {{ site.conference.abstract_deadline }}</dd>
+        </dl>
+        <a href="{{ site.conference.registration_url }}" class="btn">Register</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>Confirmed Speakers</h2>
+      <span class="section__kicker">Program in development</span>
+    </div>
+    <div class="speakers-grid">
+      {% for speaker in site.speakers %}
+      <div class="speaker">
+        <div class="speaker__name">{{ speaker.name }}</div>
+        <div class="speaker__affiliation">{{ speaker.affiliation }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>Sponsors</h2>
+      <span class="section__kicker">With gratitude</span>
+    </div>
+    <div class="sponsors-row">
+      {% for sponsor in site.sponsors %}
+        {% if sponsor.logo %}
+          <a href="{{ sponsor.url }}" title="{{ sponsor.name }}">
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+          </a>
+        {% else %}
+          <a href="{{ sponsor.url }}" class="sponsor-placeholder">{{ sponsor.name }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
