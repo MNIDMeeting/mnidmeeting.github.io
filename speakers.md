@@ -8,8 +8,8 @@ Confirmed speakers for MNID 2026. Additional invited speakers and session chairs
 
 ## Keynote Speakers
 
-- [Lamba Omar Sangare](https://www.sangarelab.com/news), Texas A&M University (Parasitology)
-- [Asiya Gusa](https://www.gusalab.com/), Duke University (Fungal)
+- [Lamba Omar Sangare](https://www.sangarelab.com/news), Texas A&M University (Parasitology Keynote)
+- [Asiya Gusa](https://www.gusalab.com/), Duke University (Fungal Keynote)
 
 ## Invited Speakers
 

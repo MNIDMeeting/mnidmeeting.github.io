@@ -41,13 +41,17 @@ speakers:
     affiliation: University / Institution
 
 sponsors:
-  - name: Sponsor
+  - name: Burroughs Wellcome Fund
+    logo: /assets/sponsors/bwf.png
     url: "#"
-  - name: Sponsor
+  - name: University of Wisconsin–Madison
+    logo: /assets/sponsors/Wisconsin.png
     url: "#"
-  - name: Sponsor
+  - name: University of Michigan
+    logo: /assets/sponsors/Michigan.png
     url: "#"
-  - name: Sponsor
+  - name: Washington University in St. Louis
+    logo: /assets/sponsors/WUSTL.png
     url: "#"
   - name: Sponsor
     url: "#"
