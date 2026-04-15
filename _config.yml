@@ -14,7 +14,8 @@ conference:
   registration_opens: TBD
   registration_deadline: TBD
   abstract_deadline: TBD
-  registration_url: "#"
+  registration_url: "https://forms.gle/5LrWpGRfuHqSVjuA6"
+  abstract_url: "https://forms.gle/A2cUCba9zVWnjZuC8"
 
 nav:
   - title: Schedule

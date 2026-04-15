@@ -31,7 +31,10 @@ layout: default
           <dt>Abstracts</dt>
           <dd>Due {{ site.conference.abstract_deadline }}</dd>
         </dl>
-        <a href="{{ site.conference.registration_url }}" class="btn">Register</a>
+        <div class="hero__actions">
+          <a href="{{ site.conference.registration_url }}" class="btn">Register</a>
+          <a href="{{ site.conference.abstract_url }}" class="btn">Submit Abstract</a>
+        </div>
       </div>
     </div>
   </div>
