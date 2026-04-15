@@ -23,4 +23,4 @@ Madison, WI 53706
 
 ## Lodging
 
-A block of 50 rooms is reserved at **Union South** for August 6–9, 2026. Mention the *Midwest Neglected Infectious Disease Meeting* or [book directly](https://go.wisc.edu/hotel-mw-neglectedinfectiousdisease). Rooms are available until **July 13, 2026**.
+Rooms are reserved at **Union South** for August 6–9, 2026. Mention the *Midwest Neglected Infectious Disease Meeting* or [book directly](https://go.wisc.edu/hotel-mw-neglectedinfectiousdisease). Rooms are available until **July 13, 2026**.

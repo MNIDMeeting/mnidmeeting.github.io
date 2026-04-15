@@ -41,13 +41,21 @@ speakers:
     affiliation: University / Institution
 
 sponsors:
-  - name: Sponsor One
+  - name: Sponsor
     url: "#"
-  - name: Sponsor Two
+  - name: Sponsor
     url: "#"
-  - name: Sponsor Three
+  - name: Sponsor
     url: "#"
-  - name: Sponsor Four
+  - name: Sponsor
+    url: "#"
+  - name: Sponsor
+    url: "#"
+  - name: Sponsor
+    url: "#"
+  - name: Sponsor
+    url: "#"
+  - name: Sponsor
     url: "#"
 
 exclude:

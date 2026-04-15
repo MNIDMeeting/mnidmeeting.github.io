@@ -5,7 +5,18 @@ layout: default
 <section class="hero">
   <div class="container">
     <div class="hero__grid">
-      <div class="hero__logo" aria-label="MNID logo placeholder">MNID</div>
+      <div class="hero__media">
+        <div class="hero__image">
+          <img src="{{ '/assets/images/madison.jpg' | relative_url }}" alt="Madison, Wisconsin">
+          <img class="hero__image-overlay" src="{{ '/assets/images/uw-logo-web.svg' | relative_url }}" alt="University of Wisconsin–Madison">
+          <div class="hero__image-caption">
+            <span>MIDWEST NEGLECTED INFECTIOUS DISEASES MEETING</span>
+            <span>Madison, WI · Aug 7–8, 2026 &nbsp;&nbsp;&nbsp; MNIDMEETING.ORG</span>
+          </div>
+        </div>
+        <img class="hero__mnid" src="{{ '/assets/images/mnid.jpg' | relative_url }}" alt="MNID">
+        <a class="hero__flyer" href="{{ '/assets/flyer.pdf' | relative_url }}">Download Flyer ↓</a>
+      </div>
       <div class="hero__content">
         <div class="hero__eyebrow">Midwest Neglected Infectious Diseases Meeting</div>
         <h1 class="hero__headline">A gathering of researchers advancing the science of neglected infectious diseases.</h1>
@@ -22,23 +33,6 @@ layout: default
         </dl>
         <a href="{{ site.conference.registration_url }}" class="btn">Register</a>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section__header">
-      <h2>Confirmed Speakers</h2>
-      <span class="section__kicker">Program in development</span>
-    </div>
-    <div class="speakers-grid">
-      {% for speaker in site.speakers %}
-      <div class="speaker">
-        <div class="speaker__name">{{ speaker.name }}</div>
-        <div class="speaker__affiliation">{{ speaker.affiliation }}</div>
-      </div>
-      {% endfor %}
     </div>
   </div>
 </section>

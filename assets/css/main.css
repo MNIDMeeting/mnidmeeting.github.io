@@ -87,7 +87,6 @@ a:hover { color: var(--accent-hover); }
 .site-title__sub {
   color: var(--muted);
   font-weight: 400;
-  font-style: italic;
   margin-left: 0.25rem;
 }
 
@@ -123,23 +122,73 @@ main { flex: 1; }
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 5rem;
-  align-items: center;
+  align-items: start;
 }
-.hero__logo {
+.hero__media {
+  width: 100%;
+  max-width: 366px;
+  margin: 2.3rem auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.hero__image {
+  position: relative;
   aspect-ratio: 1 / 1;
   width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #000;
   background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Fraunces', serif;
-  font-size: 3rem;
+  box-shadow: 0 20px 50px -30px rgba(17, 17, 17, 0.35);
+}
+.hero__mnid {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  border-top: none;
+}
+.hero__flyer {
+  display: block;
+  margin-top: 0.85rem;
+  text-align: center;
+  font-size: 0.82rem;
   font-weight: 500;
-  color: var(--accent);
   letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.hero__flyer:hover { color: var(--accent); }
+.hero__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hero__image-caption {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+.hero__image > img.hero__image-overlay {
+  position: absolute;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 33%;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
 }
 .hero__eyebrow {
   font-size: 0.8rem;
@@ -334,9 +383,8 @@ main { flex: 1; }
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-  .hero__logo {
-    max-width: 240px;
-    font-size: 2.25rem;
+  .hero__media {
+    max-width: 320px;
   }
   .hero h1 { font-size: 2.25rem; }
   .section { padding: 3.5rem 0; }
