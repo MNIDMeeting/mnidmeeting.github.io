@@ -13,24 +13,27 @@ The only regional meeting focusing on fungal and parasitic infections, MNID is a
 - Joshua R. Beck, Iowa State University
 - Tamara Doering, Washington University
 - Ana Flores Mireles, Notre Dame University
-- Mahmoud Ghannoum, Case Western Reserve University
 - Kristi Goughenour, University of Michigan
 - Kasturi Haldar, Notre Dame University
 - Bin He, University of Iowa
-- Michael Holmes, Indiana University
+- Michael Holmes, University of Missouri–Kansas City
+- Emmitt Jolly, Case Western Reserve University
 - Stefan Kanzok, Loyola University, Chicago
 - Noelia Lander, University of Cincinnati
-- Som Nanjappa, University of Illinois Urbana–Champaign
-- Fernanda Novais, Ohio State University
 - Chad Rappleye, Ohio State University
 - Felipe Santiago-Tirado, Notre Dame University
+- Rob Striker, University of Wisconsin–Madison
+- Steven Templeton, Indiana University School of Medicine
+- Sumiti Vinayak, University of Illinois Urbana–Champaign
 - Yifan Wang, University of Michigan
+- Mostafa Zamanian, University of Wisconsin–Madison
 
 ## Local Organizing Committee
 
-- Matt Andersen, University of Wisconsin–Madison
-- Rob Striker, University of Wisconsin–Madison
-- Mostafa Zamanian, University of Wisconsin–Madison
+- [Matt Anderson](https://andersonlab.genetics.wisc.edu/), University of Wisconsin–Madison
+- [Liza Loza](https://andersonlab.genetics.wisc.edu/people/), University of Wisconsin–Madison
+- [Rob Striker](https://www.medicine.wisc.edu/infectious-disease/striker-research), University of Wisconsin–Madison
+- [Mostafa Zamanian](https://www.zamanianlab.org/), University of Wisconsin–Madison
 
 ## Past Meetings
 
