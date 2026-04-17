@@ -35,11 +35,17 @@ The only regional meeting focusing on fungal and parasitic infections, MNID is a
 - [Rob Striker](https://www.medicine.wisc.edu/infectious-disease/striker-research), University of Wisconsin–Madison
 - [Mostafa Zamanian](https://www.zamanianlab.org/), University of Wisconsin–Madison
 
-## Past Meetings
+## History and Past Meetings
+
+MNID was launched in 2011 to provide a much-needed conference in the Midwest for researchers in the fields of pathogenic parasites and fungi. Its kick-off was made possible through generous support by the Burroughs Wellcome Fund and hosted by the Boler-Parseghian Center for Rare and Neglected Diseases at the University of Notre Dame. The original steering committee was drawn from five states: Wisconsin, Illinois, Michigan, Indiana, and Ohio.
 
 - 2025 — Case Western University, Cleveland, OH
 - 2024 — University of Michigan, Ann Arbor, MI
 - 2023 — University of Illinois at Urbana–Champaign, Champaign, IL
 - 2022 — University of Notre Dame, Notre Dame, IN
 - 2017 — University of Notre Dame, Notre Dame, IN
+- 2015 — University of Notre Dame, Notre Dame, IN
 - 2014 — University of Notre Dame, Notre Dame, IN
+- 2013 — University of Notre Dame, Notre Dame, IN
+- 2012 — University of Notre Dame, Notre Dame, IN
+- 2011 — University of Notre Dame, Notre Dame, IN
