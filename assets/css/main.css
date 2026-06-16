@@ -262,6 +262,23 @@ main { flex: 1; }
   background: var(--accent);
   color: #fff !important;
 }
+.btn--disabled {
+  background: var(--muted);
+  cursor: not-allowed;
+  opacity: 0.55;
+  pointer-events: none;
+}
+.btn--disabled:hover {
+  background: var(--muted);
+  transform: none;
+}
+.hero__notice {
+  margin: -1.25rem 0 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
