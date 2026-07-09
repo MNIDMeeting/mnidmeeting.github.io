@@ -306,12 +306,13 @@ main { flex: 1; }
 
 /* ---------- Sponsors ---------- */
 .sponsors-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: center;
-  justify-content: center;
-  gap: 2.5rem 4rem;
+  justify-items: center;
+  gap: 2.5rem 3rem;
 }
+.sponsors-row > *:nth-child(6) { grid-column: 2; }
 .sponsor-placeholder {
   padding: 1.25rem 2.25rem;
   border: 1px solid var(--border);
@@ -426,6 +427,71 @@ main { flex: 1; }
   white-space: nowrap;
 }
 
+/* ---------- Housing steps ---------- */
+.housing-steps h2 {
+  font-size: 1.15rem;
+  color: var(--accent);
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.housing-step__figure {
+  display: inline-block;
+  margin: 0.75rem 0 0.25rem;
+  cursor: zoom-in;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 0.35rem;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  max-width: 100%;
+}
+.housing-step__figure img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+.housing-step__figure:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px -8px rgba(17, 17, 17, 0.25);
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 3rem;
+}
+.lightbox:target { display: flex; }
+.lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+}
+.lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: #fff !important;
+  font-size: 2.25rem;
+  line-height: 1;
+  text-decoration: none;
+  z-index: 1;
+}
+.lightbox__close:hover { opacity: 0.75; }
+
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
@@ -457,6 +523,15 @@ main { flex: 1; }
   .page { padding: 3rem 0 4rem; }
   .page h1 { font-size: 2rem; }
   .container { padding: 0 1.5rem; }
+}
+
+@media (max-width: 720px) {
+  .sponsors-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem 1.5rem;
+  }
+  .sponsors-row > *:nth-child(6) { grid-column: auto; }
+  .sponsors-row > *:nth-child(7) { grid-column: 1; }
 }
 
 @media (max-width: 600px) {

@@ -25,6 +25,8 @@ Madison, WI 53706
 
 Rooms are reserved at **Union South** for August 6–9, 2026. Mention the *Midwest Neglected Infectious Disease Meeting* or [book directly](https://go.wisc.edu/hotel-mw-neglectedinfectiousdisease). Rooms are available until **July 13, 2026**.
 
+Lower-cost **University Housing** options are also available for the Midwest Neglected Infectious Disease Meeting group — see the [University Housing booking instructions]({{ '/university-housing/' | relative_url }}).
+
 Additional options nearby:
 
 - [Fluno Center](https://fluno.com/reservations.php)
