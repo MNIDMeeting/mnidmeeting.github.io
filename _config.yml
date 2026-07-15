@@ -66,6 +66,9 @@ sponsors:
   - name: University of Missouri–Kansas City
     logo: /assets/sponsors/UMKC.png
     url: "#"
+  - name: Case Western Reserve University
+    logo: /assets/sponsors/CWRU.png
+    url: "#"
 
 exclude:
   - Gemfile
