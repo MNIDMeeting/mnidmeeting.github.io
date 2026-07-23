@@ -69,6 +69,9 @@ sponsors:
   - name: Case Western Reserve University
     logo: /assets/sponsors/CWRU.png
     url: "#"
+  - name: Iowa State University
+    logo: /assets/sponsors/ISU.png
+    url: "#"
 
 exclude:
   - Gemfile
