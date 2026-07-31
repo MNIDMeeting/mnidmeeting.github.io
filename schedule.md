@@ -4,7 +4,7 @@ title: Schedule
 permalink: /schedule/
 ---
 
-<p class="schedule-pdf"><a href="{{ '/assets/pdfs/MNID2026_Schedule.pdf' | relative_url }}">Download Schedule (PDF) ↓</a></p>
+<p class="schedule-pdf"><a href="{{ '/assets/pdfs/MNID2026_Schedule.pdf' | relative_url }}">Download Schedule (PDF) ↓</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdfs/MNID2026_Poster_Abstracts.pdf' | relative_url }}">Download Poster Abstracts (PDF) ↓</a></p>
 
 <div class="schedule" markdown="1">
 
