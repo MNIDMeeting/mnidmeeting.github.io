@@ -71,8 +71,8 @@ permalink: /schedule/
 
 |  |  |
 |--|--|
-| 7:45 – 8:45 pm | Poster session A (odd-numbered posters 1–91) |
-| 8:45 – 9:45 pm | Poster session B (even-numbered posters 2–92) |
+| 7:45 – 8:45 pm | Poster session A (odd-numbered posters) |
+| 8:45 – 9:45 pm | Poster session B (even-numbered posters) |
 | 9:45 pm – end | Social outing @ Memorial Union Terrace |
 
 ## Day 2 — Saturday, August 8, 2026
