@@ -64,7 +64,7 @@ permalink: /schedule/
 | 7:24 – 7:27 pm | <strong class="speaker">Emily Simonton</strong>, University of Wisconsin–Madison<br><span class="talk-title">"Paralogs of the Candida albicans TLO gene family form interconnected functional networks with incomplete redundancy"</span> |
 | 7:28 – 7:31 pm | <strong class="speaker">Paola Ramos Irizarry</strong>, Duke University<br><span class="talk-title">"Elucidating thermo-adaptive mechanisms and cell cycle progression in Cryptococcus deneoformans"</span> |
 | 7:32 – 7:35 pm | <strong class="speaker">Fengrong Wang</strong>, Iowa State University<br><span class="talk-title">"Cryo-EM structures reveal unique protein components in the 43S translation initiation complexes of apicomplexan parasite Toxoplasma gondii"</span> |
-| 7:36 – 7:39 pm | <strong class="speaker">Nic Wheeler</strong>, University of Wisconsin–Eau Claire<br><span class="talk-title">"Quantitative ethology of trematode miracidia"</span> |
+| 7:36 – 7:39 pm | <strong class="speaker">Nic Wheeler</strong>, University of Wisconsin–Eau Claire<br><span class="talk-title">"Ultrawidefield imaging for quantitative ethology of aquatic stages of parasites and vectors"</span> |
 | 7:40 – 7:43 pm | <strong class="speaker">Brynn Elson</strong>, University of Michigan<br><span class="talk-title">"Scf1 suppresses the innate immune response to systemic Candida auris infection"</span> |
 
 ### Poster Session (with beverages)
