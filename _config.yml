@@ -72,6 +72,9 @@ sponsors:
   - name: Iowa State University
     logo: /assets/sponsors/ISU.png
     url: "#"
+  - name: Loyola University Chicago
+    logo: /assets/sponsors/Loyola.png
+    url: "#"
 
 exclude:
   - Gemfile
